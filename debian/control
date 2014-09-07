@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-extras
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://www.ros.org/wiki/nao_extras
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-extras
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-nao-path-follower, ros-hydro-nao-teleop
+Description: Extra tools for the Nao robot: teleoperation with a gamepad and path following. Renamed from the nao_common stack.
