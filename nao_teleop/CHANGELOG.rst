@@ -2,6 +2,11 @@
 Changelog for package nao_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2014-11-13)
+------------------
+* comply to the new naoqi organization
+* Contributors: Vincent Rabaud
+
 0.2.1 (2014-09-07)
 ------------------
 * Fix package.xml files
