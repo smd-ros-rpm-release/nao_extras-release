@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-path-follower
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-angles, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-move-base-msgs, ros-hydro-naoqi-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-tf
+Homepage: http://ros.org/wiki/nao_path_follower
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-path-follower
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-angles, ros-hydro-geometry-msgs, ros-hydro-move-base-msgs, ros-hydro-naoqi-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-tf
+Description: Enables a Nao humanoid to either walk to a target location (with localization feedback), or follow a planned 2D path closely. Sends naoqi_msgs to the nao_walker node in nao_apps.
